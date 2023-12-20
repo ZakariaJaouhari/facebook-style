@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgba(227, 225, 225, 0.516);
-
 }
 
 #div1 {
@@ -12,8 +11,6 @@ body {
     height: auto;
     align-items: center;
     margin-top: 5px;
-
-
 }
 
 h1 {
@@ -57,8 +54,6 @@ h1 {
     border-color: rgba(185, 181, 181, 0.625);
     font-size: 17px;
     padding-left: 5px;
-
-
 }
 
 #itnb {
@@ -113,16 +108,13 @@ a {
     align-items: center;
 }
 
-#lng,
-#autre {
+#lng,#autre {
     display: flex;
     justify-content: center;
     position: relative;
     bottom: -35px;
     width: 952px;
     display: inline-block;
-
-
 }
 
 #hr2 {
@@ -152,22 +144,16 @@ a {
 }
 
 #autre {
-
     line-height: 1.5;
-
-
     position: relative;
     bottom: 20px;
     color: #868686;
     font-size: 13px;
     width: 952px;
-
-
 }
 
 #divp {
     flex-direction: column;
-
 }
 
 #p {
@@ -175,7 +161,6 @@ a {
     bottom: 170px;
     text-align: center;
     left: 20px;
-
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 350px;
 }
