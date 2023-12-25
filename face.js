@@ -449,6 +449,10 @@ function showSignupForm() {
     var signupForm = document.getElementById('signup');
     signupForm.style.display = 'block';
 }
+function hideSignupForm() {
+    var signupForm = document.getElementById('signup');
+    signupForm.style.display = 'none';
+}
 
 function submitForm() {
     // Ajoutez ici le code pour traiter le formulaire lorsque soumis
