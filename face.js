@@ -445,3 +445,12 @@ Portugues.addEventListener('click', function () {
 
 
 
+function showSignupForm() {
+    var signupForm = document.getElementById('signup');
+    signupForm.style.display = 'block';
+}
+
+function submitForm() {
+    // Ajoutez ici le code pour traiter le formulaire lorsque soumis
+    alert('Formulaire soumis avec succès!');
+}
