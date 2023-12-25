@@ -11,7 +11,7 @@
 <body>
     <div id="div1">
         <div id="div3">
-        <h1>facebook</h1>
+            <h1>facebook</h1>
             <p id="p1">Facebook helps you connect and share with the people in your life.</p>
         </div>
         <div id="divp">
@@ -23,7 +23,8 @@
                     <p id="p2">Forgotten password?</p>
                 </a>
                 <hr id="hr1">
-                <input style="font-weight: bold;" id="inptB" type="button" value="Create new account" onclick="showSignupForm()">
+                <input style="font-weight: bold;" id="inptB" type="button" value="Create new account"
+                    onclick="showSignupForm()">
             </div>
             <p id="p"><a id="ap" href="https://en-gb.facebook.com/pages/create/?ref_type=registration_form"
                     style="color: black; font-weight: bold; ">Create a Page </a><span id="sp"> for a celebrity, brand or
@@ -36,13 +37,14 @@
         <img src="https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/11W0xEwKS62.png" alt="">
         <hr>
         <form id="signup-form">
-            
+
             <input type="text" placeholder="First name">
             <input type="text" placeholder="Surname"><br>
             <input type="text" placeholder="Mobile number or email address"><br>
             <input type="password" placeholder="New password"><br>
             <label for="" style="font-size: 12px;color: rgb(96, 103, 112);
-            font-family: SFProText-Medium, Helvetica, Arial, sans-serif;">Date of birth</label><img src="file:///Users/zakaria/Downloads/iE9yyunejFh.png" alt="" style="height: 12px;width: 12px;"><br>
+            font-family: SFProText-Medium, Helvetica, Arial, sans-serif;">Date of birth</label><img
+                src="file:///Users/zakaria/Downloads/iE9yyunejFh.png" alt="" style="height: 12px;width: 12px;"><br>
             <select>
                 <option value="">1</option>
                 <option value="">2</option>
@@ -212,17 +214,30 @@
                 <option value="1905">1905</option>
             </select><br>
             <label for="" style="font-size: 12px;color: rgb(96, 103, 112);
-            font-family: SFProText-Medium, Helvetica, Arial, sans-serif;">Gender</label><img src="file:///Users/zakaria/Downloads/iE9yyunejFh.png" alt="" style="height: 12px;width: 12px;"><br>
-            <label for="male">Male</label>
-            <input type="radio" id="male" name="gender" value="male" required>
-            <label for="female">Female</label>
-            <input type="radio" id="female" name="gender" value="female" required>
+            font-family: SFProText-Medium, Helvetica, Arial, sans-serif;">Gender</label><img
+                src="file:///Users/zakaria/Downloads/iE9yyunejFh.png" alt="" style="height: 12px;width: 12px;"><br>
+            <div style="display: flex;">
+                <div class="spn">
+                    <label for="male" class="lbl" style="margin-left: 10px;">Male</label>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                </div>
+                <div class="spn">
+                    <label for="female" class="lbl" style="margin-left: 10px;">Female</label>
+                    <input type="radio" id="female" name="gender" value="female" required>
+                </div>
+            </div>
 
-            <p class="paras" style="margin-block-end: 11px;">People who use our service may have uploaded your contact information to<br> Facebook. <a href="https://www.facebook.com/help/637205020878504" class="paras">Learn more.</a></p>
-            <p class="paras">By clicking Sign Up, you agree to our <a href="https://www.facebook.com/legal/terms/update" class="paras">Terms</a>, 
-                <a href="https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0" class="paras">Privacy Policy</a>
-                 and <a href="https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0" class="paras">Cookies<br> Policy</a>. 
-                 You may receive SMS notifications from us and can opt out at any<br> time.
+            <p class="paras" style="margin-block-end: 11px;">People who use our service may have uploaded your contact
+                information to<br> Facebook. <a href="https://www.facebook.com/help/637205020878504" class="paras">Learn
+                    more.</a></p>
+            <p class="paras">By clicking Sign Up, you agree to our <a href="https://www.facebook.com/legal/terms/update"
+                    class="paras">Terms</a>,
+                <a href="https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0"
+                    class="paras">Privacy Policy</a>
+                and <a
+                    href="https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0"
+                    class="paras">Cookies<br> Policy</a>.
+                You may receive SMS notifications from us and can opt out at any<br> time.
             </p>
             <div style="text-align: center;">
                 <button type="button" onclick="submitForm()" id="sign">Sign Up</button>
@@ -288,7 +303,7 @@
 
 
 
-    <script src="face.js"></script>
+        <script src="face.js"></script>
 </body>
 
 </html>
