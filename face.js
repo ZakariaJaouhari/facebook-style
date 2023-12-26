@@ -448,10 +448,12 @@ Portugues.addEventListener('click', function () {
 function showSignupForm() {
     var signupForm = document.getElementById('signup');
     signupForm.style.display = 'block';
+    document.getElementById("overlay").style.display = "block";
 }
 function hideSignupForm() {
     var signupForm = document.getElementById('signup');
     signupForm.style.display = 'none';
+    document.getElementById("overlay").style.display = "none";
 }
 
 function submitForm() {
