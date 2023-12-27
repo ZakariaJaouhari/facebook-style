@@ -452,11 +452,21 @@ function showSignupForm() {
 }
 function hideSignupForm() {
     var signupForm = document.getElementById('signup');
+    var overlay=document.getElementById('overlay');
     signupForm.style.display = 'none';
-    document.getElementById("overlay").style.display = "none";
+    overlay.style.display = "none";
 }
 
 function submitForm() {
-    // Ajoutez ici le code pour traiter le formulaire lorsque soumis
     alert('Formulaire soumis avec succès!');
+}
+
+function showexplication1(){
+    var expli1=document.getElementById('expli1');
+    expli1.style.display='block';
+}
+
+function showexplication2(){
+    var expli2=document.getElementById('expli2');
+    expli2.style.display='block';
 }

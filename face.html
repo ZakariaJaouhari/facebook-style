@@ -38,7 +38,8 @@
             Sign Up
         </h2>
         <p id="p-sign">It's quick and easy.</p>
-        <img id="x" src="https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/11W0xEwKS62.png" alt="" onclick="hideSignupForm()">
+        <img id="x" src="https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/11W0xEwKS62.png" alt=""
+            onclick="hideSignupForm()">
         <hr style="position: relative;top: 5px;">
         <form id="signup-form">
 
@@ -46,10 +47,12 @@
             <input class="inputs1" type="text" placeholder="Surname"><br>
             <input class="inputs2" type="text" placeholder="Mobile number or email address"><br>
             <input class="inputs2" type="password" placeholder="New password"><br>
-            <label for="" style="font-size: 12px;color: rgb(96, 103, 112);
-            font-family: SFProText-Medium, Helvetica, Arial, sans-serif;margin-left: 10px;
-            margin-right: 6px;">Date of birth</label><img
+            <label for="" id="datebirth">Date of birth</label><img onclick="showexplication1()"
                 src="file:///Users/zakaria/Downloads/iE9yyunejFh.png" alt="" style="height: 12px;width: 12px;"><br>
+            <div id="expli1">
+                <p>Providing your birthday helps make sure that you get the right Facebook experience for your age. If you want to change who sees this, go to the About section of your profile. For more details, please visit our
+                    <a href="https://free.facebook.com/privacy/policy/#">Privacy Policy.</a></p>
+            </div>
             <div style="display: flex;margin-bottom: -10px;">
                 <select class="slct">
                     <option value="">1</option>
@@ -221,8 +224,12 @@
                 </select>
             </div><br>
             <label for="" style="font-size: 12px;color: rgb(96, 103, 112);
-            font-family: SFProText-Medium, Helvetica, Arial, sans-serif;margin-left: 10px;">Gender</label><img
-                src="file:///Users/zakaria/Downloads/iE9yyunejFh.png" alt="" style="height: 12px;width: 12px;"><br>
+            font-family: SFProText-Medium, Helvetica, Arial, sans-serif;margin-left: 10px;">Gender</label><img onclick="showexplication2()"
+                src="file:///Users/zakaria/Downloads/iE9yyunejFh.png" alt=""
+                style="height: 12px;width: 12px;position: relative;left: 5px;"><br>
+            <div id="expli2">
+                <p>You can change who sees your gender on your profile later. Select Custom to choose another gender, or if you'd rather not say.</p>
+            </div>
             <div style="display: flex;">
                 <div class="spn">
                     <label for="male" class="lbl" style="margin-left: 10px;">Male</label>
@@ -235,11 +242,13 @@
             </div>
 
             <p class="paras" style="margin-block-end: 11px;">People who use our service may have uploaded your contact
-                information to<br> Facebook.<a href="https://www.facebook.com/help/637205020878504" style="color: rgb(56, 88, 152);" class="paras">Learn
+                information to<br> Facebook.<a href="https://www.facebook.com/help/637205020878504"
+                    style="color: rgb(56, 88, 152);" class="paras">Learn
                     more.</a></p>
             <p class="paras">By clicking Sign Up, you agree to our<a href="https://www.facebook.com/legal/terms/update"
-                style="color: rgb(56, 88, 152);" class="paras">Terms,</a><a href="https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0"
-                style="color: rgb(56, 88, 152);" class="paras">Privacy Policy</a>
+                    style="color: rgb(56, 88, 152);" class="paras">Terms,</a><a
+                    href="https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0"
+                    style="color: rgb(56, 88, 152);" class="paras">Privacy Policy</a>
                 and<a
                     href="https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0"
                     style="color: rgb(56, 88, 152);" class="paras">Cookies<br> Policy.</a>
