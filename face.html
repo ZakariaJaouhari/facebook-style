@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div id="overlay"></div>
+    <div id="overlay" onclick="hidexplications()"></div>
     <div id="div1">
         <div id="div3">
             <h1>facebook</h1>
@@ -28,7 +28,8 @@
                     onclick="showSignupForm()">
             </div>
             <p id="p"><a id="ap" href="https://en-gb.facebook.com/pages/create/?ref_type=registration_form"
-                    style="color: black; font-weight: bold; ">Create a Page </a><span id="sp"> for a celebrity, brand or
+                    style="color: black; font-weight: bold; ">Create a Page </a><span id="sp"> for a celebrity,
+                    brand or
                     business.</span></p>
         </div>
     </div>
@@ -43,15 +44,19 @@
         <hr style="position: relative;top: 5px;">
         <form id="signup-form">
 
-            <input class="inputs1" type="text" placeholder="First name" style="margin-right: 8px;margin-left: 10px;">
+            <input class="inputs1" type="text" placeholder="First name" required style="margin-right: 8px;margin-left: 10px;">
             <input class="inputs1" type="text" placeholder="Surname"><br>
             <input class="inputs2" type="text" placeholder="Mobile number or email address"><br>
             <input class="inputs2" type="password" placeholder="New password"><br>
             <label for="" id="datebirth">Date of birth</label><img onclick="showexplication1()"
                 src="file:///Users/zakaria/Downloads/iE9yyunejFh.png" alt="" style="height: 12px;width: 12px;"><br>
-            <div id="expli1">
-                <p>Providing your birthday helps make sure that you get the right Facebook experience for your age. If you want to change who sees this, go to the About section of your profile. For more details, please visit our
-                    <a href="https://free.facebook.com/privacy/policy/#">Privacy Policy.</a></p>
+            <div class="expli" id="expli1">
+                <p style="margin-left: 10px;margin-top: 25px;"><b>Providing your birthday</b> helps make sure that you get<br> the
+                    right Facebook experience for your age.
+                    If you<br> want to change who sees this, go to the About
+                    section<br> of your profile. For more details, please visit our<br>
+                    <a href="https://free.facebook.com/privacy/policy/#">Privacy Policy.</a>
+                </p>
             </div>
             <div style="display: flex;margin-bottom: -10px;">
                 <select class="slct">
@@ -224,11 +229,12 @@
                 </select>
             </div><br>
             <label for="" style="font-size: 12px;color: rgb(96, 103, 112);
-            font-family: SFProText-Medium, Helvetica, Arial, sans-serif;margin-left: 10px;">Gender</label><img onclick="showexplication2()"
-                src="file:///Users/zakaria/Downloads/iE9yyunejFh.png" alt=""
+            font-family: SFProText-Medium, Helvetica, Arial, sans-serif;margin-left: 10px;">Gender</label><img
+                onclick="showexplication2()" src="file:///Users/zakaria/Downloads/iE9yyunejFh.png" alt=""
                 style="height: 12px;width: 12px;position: relative;left: 5px;"><br>
             <div id="expli2">
-                <p>You can change who sees your gender on your profile later. Select Custom to choose another gender, or if you'd rather not say.</p>
+                <p style="margin-left: 10px;margin-top: 25px;">You can change who sees your gender on your profile<br> later. Select
+                    Custom to choose another gender, or if<br> you'd rather not say.</p>
             </div>
             <div style="display: flex;">
                 <div class="spn">
@@ -241,7 +247,8 @@
                 </div>
             </div>
 
-            <p class="paras" style="margin-block-end: 11px;">People who use our service may have uploaded your contact
+            <p class="paras" style="margin-block-end: 11px;">People who use our service may have uploaded your
+                contact
                 information to<br> Facebook.<a href="https://www.facebook.com/help/637205020878504"
                     style="color: rgb(56, 88, 152);" class="paras">Learn
                     more.</a></p>
@@ -300,8 +307,9 @@
             <a id="a11" href="https://en-gb.facebook.com/groups/discover/">Groups</a>
             <a id="a12" href="https://about.meta.com/">About</a>
             <a id="a13"
-                href="https://en-gb.facebook.com/login.php?next=https%3A%2F%2Fen-gb.facebook.com%2Fads%2Fcreate%2F%3Fnav_source%3Dunknown%26campaign_id%3D402047449186%26placement%3Dpflo%26extra_1%3Dnot-admgr-user&campaign_id=402047449186">Create
-                ad</a>
+                href="https://en-gb.facebook.com/login.php?next=https%3A%2F%2Fen-gb.facebook.com%2Fads%2Fcreate%2F%3Fnav_source%3Dunknown%26campaign_id%3D402047449186%26placement%3Dpflo%26extra_1%3Dnot-admgr-user&campaign_id=402047449186">
+                Create ad
+            </a>
             <a id="a14" href="https://en-gb.facebook.com/pages/create/?ref_type=site_footer">Create page</a>
             <a id="a15" href="https://developers.facebook.com/?ref=pf">Developers</a>
             <a id="a16" href="https://www.metacareers.com/">Careers</a>
@@ -315,8 +323,6 @@
             <a href="" style="text-decoration: none;">Meta © 2023</a>
 
         </p><br><br>
-
-
 
         <script src="face.js"></script>
 </body>

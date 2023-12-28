@@ -462,11 +462,34 @@ function submitForm() {
 }
 
 function showexplication1(){
+    var expli2=document.getElementById('expli2');
     var expli1=document.getElementById('expli1');
-    expli1.style.display='block';
+
+
+    if (expli1.style.display === 'none') {
+        expli1.style.display = 'block';
+        expli2.style.display = 'none';
+    } else {
+        expli1.style.display = 'none';
+    }
+
 }
 
 function showexplication2(){
-    var expli2=document.getElementById('expli2');
-    expli2.style.display='block';
+    if (expli2.style.display === 'none') {
+        expli2.style.display = 'block';
+        expli1.style.display = 'none';
+    } else {
+        expli2.style.display = 'none';
+    }
 }
+
+function hidexplications(){
+    var expli1=document.getElementById('expli1');
+    var expli2=document.getElementById('expli2');
+    
+    expli1.style.display='none';
+    expli2.style.display='none';
+
+    }
+
