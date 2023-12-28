@@ -141,7 +141,8 @@ a {
 
 #lng a:hover,
 #autre a:hover,
-#ap:hover {
+#ap:hover,
+.liens:hover {
     text-decoration: underline;
 }
 
@@ -292,7 +293,6 @@ a {
     line-height: 36px;
     width: 90px;
 }
-
 #x{
     height: 24px;
     width: 24px;

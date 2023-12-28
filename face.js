@@ -24,9 +24,15 @@ const a15 = document.getElementById("a15");
 const a16 = document.getElementById("a16");
 const a17 = document.getElementById("a17");
 const a18 = document.getElementById("a18");
-const a19 = document.getElementById("a19");
+const a19 = document.getElementsByClassName("a19");
 const a20 = document.getElementById("a20");
 const a21 = document.getElementById("a21");
+const name=document.getElementById("name");
+const surname=document.getElementById("surname");
+const mobile=document.getElementById("mobile");
+const password=document.getElementById("password");
+const datebirth=document.getElementById("datebirth");
+
 
 
 
@@ -60,7 +66,13 @@ const contenuLangue = {
         a18: "Choisir sa publicité",
         a19: "Conditions générales",
         a20: "Aide",
-        a21: "Importation des contacts et non-utilisateurs"
+        a21: "Importation des contacts et non-utilisateurs",
+        namePlaceholder: "Prénom",
+        surnamePlaceholder: "Nom de famille",
+        mobilePlaceholder: "Numéro mobile ou e-mail",
+        passwordPlaceholder: "Nouveau mot de passe",
+        datebirth: "Date de naissance",
+        
     },
     anglais: {
         p1: "Facebook helps you connect and share with the people in your life.",
@@ -91,7 +103,12 @@ const contenuLangue = {
         a18: "AdChoices",
         a19: "Terms",
         a20: "Help",
-        a21: "Contact uploading and non-users"
+        a21: "Contact uploading and non-users",
+        name: "First name",
+        surname: "Surname",
+        mobile: "Mobile number or email address",
+        password: "New password",
+        datebirth: "Date of birth",
     },
     amazigh: {
         p1: "ⵙ ⴼⵉⵙⴱⵓⴽ, ⵜⵣⵎⵔⵎ ⴰⴷ ⵜⵣⴷⵉⵎ ⴰⴽⴷ ⵎⴷⴷⵏ ⵍⵍⴰⵏⵉⵏ ⴷⴳ ⵜⵓⴷⵔⵜ ⵏⵏⵓⵏ ⵜⴱⴹⵓⵎ ⴰⴽⵉⴷⵙⵏ ⵜⵉⵖⴰⵡⵙⵉⵡⵉⵏ.",

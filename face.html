@@ -44,18 +44,18 @@
         <hr style="position: relative;top: 5px;">
         <form id="signup-form">
 
-            <input class="inputs1" type="text" placeholder="First name" required style="margin-right: 8px;margin-left: 10px;">
-            <input class="inputs1" type="text" placeholder="Surname"><br>
-            <input class="inputs2" type="text" placeholder="Mobile number or email address"><br>
-            <input class="inputs2" type="password" placeholder="New password"><br>
+            <input id="name" class="inputs1" type="text" placeholder="First name" required style="margin-right: 8px;margin-left: 10px;">
+            <input id="surname" class="inputs1" type="text" placeholder="Surname"><br>
+            <input id="mobile" class="inputs2" type="text" placeholder="Mobile number or email address"><br>
+            <input id="password" class="inputs2" type="password" placeholder="New password"><br>
             <label for="" id="datebirth">Date of birth</label><img onclick="showexplication1()"
                 src="file:///Users/zakaria/Downloads/iE9yyunejFh.png" alt="" style="height: 12px;width: 12px;"><br>
-            <div class="expli" id="expli1">
+            <div id="expli1">
                 <p style="margin-left: 10px;margin-top: 25px;"><b>Providing your birthday</b> helps make sure that you get<br> the
                     right Facebook experience for your age.
                     If you<br> want to change who sees this, go to the About
                     section<br> of your profile. For more details, please visit our<br>
-                    <a href="https://free.facebook.com/privacy/policy/#">Privacy Policy.</a>
+                    <a href="https://free.facebook.com/privacy/policy/#" id="Pp">Privacy Policy.</a>
                 </p>
             </div>
             <div style="display: flex;margin-bottom: -10px;">
@@ -228,7 +228,7 @@
                     <option value="1905">1905</option>
                 </select>
             </div><br>
-            <label for="" style="font-size: 12px;color: rgb(96, 103, 112);
+            <label for="" id="gender" style="font-size: 12px;color: rgb(96, 103, 112);
             font-family: SFProText-Medium, Helvetica, Arial, sans-serif;margin-left: 10px;">Gender</label><img
                 onclick="showexplication2()" src="file:///Users/zakaria/Downloads/iE9yyunejFh.png" alt=""
                 style="height: 12px;width: 12px;position: relative;left: 5px;"><br>
@@ -238,27 +238,27 @@
             </div>
             <div style="display: flex;">
                 <div class="spn">
-                    <label for="male" class="lbl" style="margin-left: 10px;">Male</label>
+                    <label for="male" id="M" class="lbl" style="margin-left: 10px;">Male</label>
                     <input type="radio" id="male" name="gender" value="male" required>
                 </div>
                 <div class="spn">
-                    <label for="female" class="lbl" style="margin-left: 10px;">Female</label>
+                    <label for="female" id="F" class="lbl" style="margin-left: 10px;">Female</label>
                     <input type="radio" id="female" name="gender" value="female" required>
                 </div>
             </div>
 
-            <p class="paras" style="margin-block-end: 11px;">People who use our service may have uploaded your
+            <p class="paras" id="people" style="margin-block-end: 11px;">People who use our service may have uploaded your
                 contact
                 information to<br> Facebook.<a href="https://www.facebook.com/help/637205020878504"
-                    style="color: rgb(56, 88, 152);" class="paras">Learn
+                    style="color: rgb(56, 88, 152);" class="paras" id="more">Learn
                     more.</a></p>
-            <p class="paras">By clicking Sign Up, you agree to our<a href="https://www.facebook.com/legal/terms/update"
-                    style="color: rgb(56, 88, 152);" class="paras">Terms,</a><a
+            <p class="paras" id="by">By clicking Sign Up, you agree to our<a href="https://www.facebook.com/legal/terms/update"
+                    style="color: rgb(56, 88, 152);" class="paras" id="terms" >Terms,</a><a
                     href="https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0"
-                    style="color: rgb(56, 88, 152);" class="paras">Privacy Policy</a>
+                    style="color: rgb(56, 88, 152);" class="paras" id="PP">Privacy Policy</a>
                 and<a
                     href="https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0"
-                    style="color: rgb(56, 88, 152);" class="paras">Cookies<br> Policy.</a>
+                    style="color: rgb(56, 88, 152);" class="paras" id="cookies" >Cookies<br> Policy.</a>
                 You may receive SMS notifications from us and can opt out at any<br> time.
             </p>
             <div style="text-align: center;">
@@ -316,7 +316,7 @@
             <a id="a17"
                 href="https://en-gb.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0">Cookies</a>
             <a id="a18" href="https://www.facebook.com/help/568137493302217">AdChoices</a>
-            <a id="a19" href="https://en-gb.facebook.com/policies_center/">Terms</a>
+            <a class="a19" href="https://en-gb.facebook.com/policies_center/">Terms</a>
             <a id="a20" href="https://en-gb.facebook.com/help/?ref=pf">Help</a>
             <a id="a21" href="https://en-gb.facebook.com/help/637205020878504">Contact Uploading and
                 non-users</a><br><br><br>
