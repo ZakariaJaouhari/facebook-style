@@ -32,6 +32,17 @@ const surname=document.getElementById("surname");
 const mobile=document.getElementById("mobile");
 const password=document.getElementById("password");
 const datebirth=document.getElementById("datebirth");
+const expli1=document.getElementById("expli1");
+const expli2=document.getElementById("expli2");
+const gender=document.getElementById("gender");
+const M=document.getElementById("M");
+const F=document.getElementById("F");
+const people=document.getElementById("people");
+const more=document.getElementById("more");
+const terms=document.getElementById("terms");
+const PP=document.getElementById("PP");
+const cookies=document.getElementById("cookies");
+const sign=document.getElementById("sign");
 
 
 
@@ -72,6 +83,7 @@ const contenuLangue = {
         mobilePlaceholder: "Numéro mobile ou e-mail",
         passwordPlaceholder: "Nouveau mot de passe",
         datebirth: "Date de naissance",
+        expli1: "Indiquer votre date de naissance garantit que votre expérience Facebook est adaptée à votre âge. Pour changer qui peut voir ça, allez dans la section À propos de votre profil. Pour en savoir plus, consultez notre"
         
     },
     anglais: {
