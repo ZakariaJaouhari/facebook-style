@@ -24,10 +24,10 @@ const a15 = document.getElementById("a15");
 const a16 = document.getElementById("a16");
 const a17 = document.getElementById("a17");
 const a18 = document.getElementById("a18");
-const a19 = document.getElementsByClassName("a19");
+const a19 = document.getElementById("a19");
 const a20 = document.getElementById("a20");
 const a21 = document.getElementById("a21");
-const name=document.getElementById("name");
+const nameP=document.getElementById("name");
 const surname=document.getElementById("surname");
 const mobile=document.getElementById("mobile");
 const password=document.getElementById("password");
@@ -83,7 +83,7 @@ const contenuLangue = {
         mobilePlaceholder: "Numéro mobile ou e-mail",
         passwordPlaceholder: "Nouveau mot de passe",
         datebirth: "Date de naissance",
-        expli1: "Indiquer votre date de naissance garantit que votre expérience Facebook est adaptée à votre âge. Pour changer qui peut voir ça, allez dans la section À propos de votre profil. Pour en savoir plus, consultez notre"
+        
         
     },
     anglais: {
@@ -116,10 +116,10 @@ const contenuLangue = {
         a19: "Terms",
         a20: "Help",
         a21: "Contact uploading and non-users",
-        name: "First name",
-        surname: "Surname",
-        mobile: "Mobile number or email address",
-        password: "New password",
+        namePlaceholder: "First name",
+        surnamePlaceholder: "Surname",
+        mobilePlaceholder: "Mobile number or email address",
+        passwordPlaceholder: "New password",
         datebirth: "Date of birth",
     },
     amazigh: {
