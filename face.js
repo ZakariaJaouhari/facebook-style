@@ -78,7 +78,7 @@ const contenuLangue = {
         a19: "Conditions générales",
         a20: "Aide",
         a21: "Importation des contacts et non-utilisateurs",
-        namePlaceholder: "Prénom",
+        namePPlaceholder: "Prénom",
         surnamePlaceholder: "Nom de famille",
         mobilePlaceholder: "Numéro mobile ou e-mail",
         passwordPlaceholder: "Nouveau mot de passe",
@@ -116,7 +116,7 @@ const contenuLangue = {
         a19: "Terms",
         a20: "Help",
         a21: "Contact uploading and non-users",
-        namePlaceholder: "First name",
+        namePPlaceholder: "First name",
         surnamePlaceholder: "Surname",
         mobilePlaceholder: "Mobile number or email address",
         passwordPlaceholder: "New password",
@@ -435,6 +435,7 @@ function changerLangue(langue) {
     a19.textContent = contenu.a19;
     a20.textContent = contenu.a20;
     a21.textContent = contenu.a21;
+    nameP.placeholder= contenu.namePPlaceholder;
 }
 
 fr.addEventListener('click', function () {
